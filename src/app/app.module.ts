@@ -10,13 +10,23 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
+import { CarFormComponent } from './components/car-form/car-form.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { MatTabsModule } from '@angular/material/tabs';
+import { ReactiveFormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     LoginComponent,
-    CardComponent
+    CardComponent,
+    CarFormComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +34,15 @@ import { InfiniteScrollModule } from 'ngx-infinite-scroll';
     HttpClientModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
-    InfiniteScrollModule
+    InfiniteScrollModule,
+    MatDialogModule,
+    MatIconModule,
+    MatButtonModule,
+    MatTabsModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

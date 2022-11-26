@@ -5,4 +5,10 @@
     <div class="card-outer" *ngFor="let car of carsToShow; trackBy:trackByFn">
         <app-card [car]="car"></app-card>
     </div>
+
+    <div class="button-container">
+        <button mat-fab color="primary" aria-label="Add a car" (click)="addCar()">
+            <mat-icon>add</mat-icon>
+        </button>
+    </div>
 </div>

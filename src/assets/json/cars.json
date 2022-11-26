@@ -104,7 +104,7 @@
     "model": "Jetta",
     "km": 82714,
     "year": 1996,
-    "fuel": "Agender",
+    "fuel": "CNG",
     "color": "Puce",
     "car_type": "Manual",
     "e_car": false
@@ -126,7 +126,7 @@
     "model": "4Runner",
     "km": 29120,
     "year": 2011,
-    "fuel": "Polygender",
+    "fuel": "Propane",
     "color": "Turquoise",
     "car_type": "Manual",
     "e_car": true
@@ -159,7 +159,7 @@
     "model": "Mark VIII",
     "km": 16197,
     "year": 1993,
-    "fuel": "Genderqueer",
+    "fuel": "Diesel",
     "color": "Mauv",
     "car_type": "Automatic",
     "e_car": false
@@ -214,7 +214,7 @@
     "model": "R-Class",
     "km": 8457,
     "year": 2006,
-    "fuel": "Non-binary",
+    "fuel": "Petrol",
     "color": "Pink",
     "car_type": "Automatic",
     "e_car": true
@@ -379,7 +379,7 @@
     "model": "Ciera",
     "km": 61347,
     "year": 1995,
-    "fuel": "Genderqueer",
+    "fuel": "Diesel",
     "color": "Aquamarine",
     "car_type": "Automatic",
     "e_car": true
@@ -412,7 +412,7 @@
     "model": "Commander",
     "km": 71975,
     "year": 2009,
-    "fuel": "Non-binary",
+    "fuel": "Petrol",
     "color": "Purple",
     "car_type": "Manual",
     "e_car": false
@@ -588,7 +588,7 @@
     "model": "ZDX",
     "km": 66330,
     "year": 2011,
-    "fuel": "Polygender",
+    "fuel": "Propane",
     "color": "Yellow",
     "car_type": "Automatic",
     "e_car": true
@@ -676,7 +676,7 @@
     "model": "Fox",
     "km": 19250,
     "year": 1991,
-    "fuel": "Agender",
+    "fuel": "CNG",
     "color": "Violet",
     "car_type": "Manual",
     "e_car": false
@@ -709,7 +709,7 @@
     "model": "Suburban 1500",
     "km": 55919,
     "year": 2000,
-    "fuel": "Genderfluid",
+    "fuel": "Benzin",
     "color": "Goldenrod",
     "car_type": "Automatic",
     "e_car": true
@@ -720,7 +720,7 @@
     "model": "Golf",
     "km": 45766,
     "year": 2010,
-    "fuel": "Agender",
+    "fuel": "CNG",
     "color": "Mauv",
     "car_type": "Automatic",
     "e_car": true
@@ -797,7 +797,7 @@
     "model": "Prizm",
     "km": 36285,
     "year": 1993,
-    "fuel": "Non-binary",
+    "fuel": "Petrol",
     "color": "Indigo",
     "car_type": "Manual",
     "e_car": false
@@ -962,7 +962,7 @@
     "model": "Sonoma",
     "km": 75999,
     "year": 1994,
-    "fuel": "Agender",
+    "fuel": "CNG",
     "color": "Red",
     "car_type": "Automatic",
     "e_car": true
@@ -1160,7 +1160,7 @@
     "model": "Torrent",
     "km": 46903,
     "year": 2009,
-    "fuel": "Genderqueer",
+    "fuel": "Diesel",
     "color": "Violet",
     "car_type": "Manual",
     "e_car": true
@@ -1182,7 +1182,7 @@
     "model": "Cirrus",
     "km": 38448,
     "year": 1996,
-    "fuel": "Agender",
+    "fuel": "CNG",
     "color": "Purple",
     "car_type": "Automatic",
     "e_car": false
@@ -1237,7 +1237,7 @@
     "model": "A6",
     "km": 12977,
     "year": 2006,
-    "fuel": "Non-binary",
+    "fuel": "Petrol",
     "color": "Yellow",
     "car_type": "Automatic",
     "e_car": false
@@ -1457,7 +1457,7 @@
     "model": "Exige",
     "km": 21216,
     "year": 2010,
-    "fuel": "Agender",
+    "fuel": "CNG",
     "color": "Fuscia",
     "car_type": "Automatic",
     "e_car": false
@@ -1534,7 +1534,7 @@
     "model": "Navigator",
     "km": 7654,
     "year": 2004,
-    "fuel": "Non-binary",
+    "fuel": "Petrol",
     "color": "Teal",
     "car_type": "Manual",
     "e_car": false
@@ -1545,7 +1545,7 @@
     "model": "Firebird",
     "km": 34614,
     "year": 1998,
-    "fuel": "Non-binary",
+    "fuel": "Petrol",
     "color": "Puce",
     "car_type": "Manual",
     "e_car": true
@@ -1600,7 +1600,7 @@
     "model": "Armada",
     "km": 47262,
     "year": 2010,
-    "fuel": "Genderqueer",
+    "fuel": "Diesel",
     "color": "Orange",
     "car_type": "Manual",
     "e_car": true
@@ -1776,7 +1776,7 @@
     "model": "1500 Club Coupe",
     "km": 21328,
     "year": 1996,
-    "fuel": "Genderfluid",
+    "fuel": "Benzin",
     "color": "Green",
     "car_type": "Manual",
     "e_car": false
@@ -1798,7 +1798,7 @@
     "model": "V70",
     "km": 70138,
     "year": 2008,
-    "fuel": "Agender",
+    "fuel": "CNG",
     "color": "Pink",
     "car_type": "Automatic",
     "e_car": true
@@ -2106,7 +2106,7 @@
     "model": "Cabriolet",
     "km": 17112,
     "year": 2000,
-    "fuel": "Agender",
+    "fuel": "CNG",
     "color": "Violet",
     "car_type": "Manual",
     "e_car": true
@@ -2238,7 +2238,7 @@
     "model": "Taurus",
     "km": 50908,
     "year": 1996,
-    "fuel": "Polygender",
+    "fuel": "Propane",
     "color": "Khaki",
     "car_type": "Manual",
     "e_car": true
@@ -2524,7 +2524,7 @@
     "model": "Camry",
     "km": 56220,
     "year": 2005,
-    "fuel": "Genderqueer",
+    "fuel": "Diesel",
     "color": "Turquoise",
     "car_type": "Manual",
     "e_car": true
@@ -2876,7 +2876,7 @@
     "model": "R-Class",
     "km": 13936,
     "year": 2008,
-    "fuel": "Agender",
+    "fuel": "CNG",
     "color": "Yellow",
     "car_type": "Manual",
     "e_car": true
@@ -3118,7 +3118,7 @@
     "model": "Cavalier",
     "km": 76710,
     "year": 1993,
-    "fuel": "Agender",
+    "fuel": "CNG",
     "color": "Indigo",
     "car_type": "Automatic",
     "e_car": false
@@ -3228,7 +3228,7 @@
     "model": "Q",
     "km": 86320,
     "year": 1997,
-    "fuel": "Polygender",
+    "fuel": "Propane",
     "color": "Mauv",
     "car_type": "Manual",
     "e_car": false
@@ -3404,7 +3404,7 @@
     "model": "5 Series",
     "km": 38607,
     "year": 2009,
-    "fuel": "Non-binary",
+    "fuel": "Petrol",
     "color": "Mauv",
     "car_type": "Automatic",
     "e_car": true
@@ -3459,7 +3459,7 @@
     "model": "E-Series",
     "km": 32746,
     "year": 1988,
-    "fuel": "Agender",
+    "fuel": "CNG",
     "color": "Crimson",
     "car_type": "Manual",
     "e_car": false
@@ -3470,7 +3470,7 @@
     "model": "Topaz",
     "km": 6897,
     "year": 1989,
-    "fuel": "Non-binary",
+    "fuel": "Petrol",
     "color": "Yellow",
     "car_type": "Manual",
     "e_car": false
@@ -3921,7 +3921,7 @@
     "model": "F150",
     "km": 30735,
     "year": 2007,
-    "fuel": "Genderqueer",
+    "fuel": "Diesel",
     "color": "Fuscia",
     "car_type": "Automatic",
     "e_car": true
@@ -4075,7 +4075,7 @@
     "model": "V70",
     "km": 14118,
     "year": 2003,
-    "fuel": "Genderqueer",
+    "fuel": "Diesel",
     "color": "Puce",
     "car_type": "Automatic",
     "e_car": true
@@ -4152,7 +4152,7 @@
     "model": "RL",
     "km": 33202,
     "year": 1996,
-    "fuel": "Polygender",
+    "fuel": "Propane",
     "color": "Yellow",
     "car_type": "Automatic",
     "e_car": false
@@ -4174,7 +4174,7 @@
     "model": "Jetta",
     "km": 59692,
     "year": 2009,
-    "fuel": "Agender",
+    "fuel": "CNG",
     "color": "Goldenrod",
     "car_type": "Automatic",
     "e_car": true
@@ -4361,7 +4361,7 @@
     "model": "Bonneville",
     "km": 88938,
     "year": 2001,
-    "fuel": "Non-binary",
+    "fuel": "Petrol",
     "color": "Pink",
     "car_type": "Manual",
     "e_car": false
@@ -4416,7 +4416,7 @@
     "model": "Yukon XL 2500",
     "km": 54925,
     "year": 2010,
-    "fuel": "Polygender",
+    "fuel": "Propane",
     "color": "Mauv",
     "car_type": "Automatic",
     "e_car": false
@@ -4570,7 +4570,7 @@
     "model": "G-Series G20",
     "km": 58165,
     "year": 1994,
-    "fuel": "Genderfluid",
+    "fuel": "Benzin",
     "color": "Mauv",
     "car_type": "Manual",
     "e_car": false
@@ -4977,7 +4977,7 @@
     "model": "Legend",
     "km": 28944,
     "year": 1993,
-    "fuel": "Agender",
+    "fuel": "CNG",
     "color": "Blue",
     "car_type": "Manual",
     "e_car": true
@@ -5021,7 +5021,7 @@
     "model": "A4",
     "km": 40408,
     "year": 2011,
-    "fuel": "Genderfluid",
+    "fuel": "Benzin",
     "color": "Khaki",
     "car_type": "Automatic",
     "e_car": false
@@ -5043,7 +5043,7 @@
     "model": "Rainier",
     "km": 24241,
     "year": 2004,
-    "fuel": "Polygender",
+    "fuel": "Propane",
     "color": "Mauv",
     "car_type": "Manual",
     "e_car": false
@@ -5197,7 +5197,7 @@
     "model": "Accord",
     "km": 12358,
     "year": 2009,
-    "fuel": "Agender",
+    "fuel": "CNG",
     "color": "Puce",
     "car_type": "Manual",
     "e_car": false
@@ -5461,7 +5461,7 @@
     "model": "Swift",
     "km": 39520,
     "year": 1999,
-    "fuel": "Genderqueer",
+    "fuel": "Diesel",
     "color": "Blue",
     "car_type": "Manual",
     "e_car": false
@@ -5879,7 +5879,7 @@
     "model": "Suburban 2500",
     "km": 18759,
     "year": 2006,
-    "fuel": "Genderfluid",
+    "fuel": "Benzin",
     "color": "Teal",
     "car_type": "Manual",
     "e_car": false
@@ -6176,7 +6176,7 @@
     "model": "MPV",
     "km": 21846,
     "year": 1993,
-    "fuel": "Polygender",
+    "fuel": "Propane",
     "color": "Blue",
     "car_type": "Manual",
     "e_car": false
@@ -6451,7 +6451,7 @@
     "model": "Maxima",
     "km": 68528,
     "year": 2012,
-    "fuel": "Non-binary",
+    "fuel": "Petrol",
     "color": "Green",
     "car_type": "Manual",
     "e_car": true
@@ -6484,7 +6484,7 @@
     "model": "Corsica",
     "km": 48893,
     "year": 1996,
-    "fuel": "Genderqueer",
+    "fuel": "Diesel",
     "color": "Fuscia",
     "car_type": "Manual",
     "e_car": false
@@ -6660,7 +6660,7 @@
     "model": "Countach",
     "km": 23557,
     "year": 1988,
-    "fuel": "Agender",
+    "fuel": "CNG",
     "color": "Turquoise",
     "car_type": "Manual",
     "e_car": false
@@ -6924,7 +6924,7 @@
     "model": "1500 Club Coupe",
     "km": 10182,
     "year": 1994,
-    "fuel": "Non-binary",
+    "fuel": "Petrol",
     "color": "Maroon",
     "car_type": "Manual",
     "e_car": true
@@ -6990,7 +6990,7 @@
     "model": "QX",
     "km": 6742,
     "year": 2012,
-    "fuel": "Polygender",
+    "fuel": "Propane",
     "color": "Khaki",
     "car_type": "Manual",
     "e_car": true
@@ -7408,7 +7408,7 @@
     "model": "Rogue",
     "km": 85130,
     "year": 2011,
-    "fuel": "Agender",
+    "fuel": "CNG",
     "color": "Violet",
     "car_type": "Manual",
     "e_car": false
@@ -7474,7 +7474,7 @@
     "model": "Lucerne",
     "km": 49098,
     "year": 2011,
-    "fuel": "Non-binary",
+    "fuel": "Petrol",
     "color": "Aquamarine",
     "car_type": "Manual",
     "e_car": true
@@ -7485,7 +7485,7 @@
     "model": "Silverado 1500",
     "km": 89908,
     "year": 2004,
-    "fuel": "Genderqueer",
+    "fuel": "Diesel",
     "color": "Khaki",
     "car_type": "Automatic",
     "e_car": false
@@ -7606,7 +7606,7 @@
     "model": "Equator",
     "km": 9082,
     "year": 2012,
-    "fuel": "Agender",
+    "fuel": "CNG",
     "color": "Fuscia",
     "car_type": "Automatic",
     "e_car": false
@@ -8167,7 +8167,7 @@
     "model": "Xterra",
     "km": 88694,
     "year": 2005,
-    "fuel": "Genderqueer",
+    "fuel": "Diesel",
     "color": "Red",
     "car_type": "Manual",
     "e_car": true
@@ -8420,7 +8420,7 @@
     "model": "SL-Class",
     "km": 29359,
     "year": 2000,
-    "fuel": "Genderfluid",
+    "fuel": "Benzin",
     "color": "Khaki",
     "car_type": "Automatic",
     "e_car": false
@@ -8596,7 +8596,7 @@
     "model": "FX",
     "km": 81553,
     "year": 2004,
-    "fuel": "Agender",
+    "fuel": "CNG",
     "color": "Turquoise",
     "car_type": "Automatic",
     "e_car": false
@@ -8827,7 +8827,7 @@
     "model": "Discovery",
     "km": 74086,
     "year": 2012,
-    "fuel": "Polygender",
+    "fuel": "Propane",
     "color": "Fuscia",
     "car_type": "Automatic",
     "e_car": false
@@ -8849,7 +8849,7 @@
     "model": "SL-Class",
     "km": 25454,
     "year": 2011,
-    "fuel": "Agender",
+    "fuel": "CNG",
     "color": "Mauv",
     "car_type": "Manual",
     "e_car": false
@@ -8959,7 +8959,7 @@
     "model": "A6",
     "km": 78581,
     "year": 2010,
-    "fuel": "Polygender",
+    "fuel": "Propane",
     "color": "Mauv",
     "car_type": "Manual",
     "e_car": false
@@ -8981,7 +8981,7 @@
     "model": "C8 Spyder",
     "km": 86970,
     "year": 2004,
-    "fuel": "Agender",
+    "fuel": "CNG",
     "color": "Turquoise",
     "car_type": "Manual",
     "e_car": true
@@ -9058,7 +9058,7 @@
     "model": "Impreza",
     "km": 80287,
     "year": 2010,
-    "fuel": "Genderqueer",
+    "fuel": "Diesel",
     "color": "Blue",
     "car_type": "Automatic",
     "e_car": true
@@ -9102,7 +9102,7 @@
     "model": "B-Series Plus",
     "km": 8908,
     "year": 1995,
-    "fuel": "Genderqueer",
+    "fuel": "Diesel",
     "color": "Goldenrod",
     "car_type": "Automatic",
     "e_car": false
@@ -9113,7 +9113,7 @@
     "model": "Golf",
     "km": 76909,
     "year": 1992,
-    "fuel": "Agender",
+    "fuel": "CNG",
     "color": "Puce",
     "car_type": "Automatic",
     "e_car": true
@@ -9179,7 +9179,7 @@
     "model": "Murano",
     "km": 48487,
     "year": 2004,
-    "fuel": "Polygender",
+    "fuel": "Propane",
     "color": "Green",
     "car_type": "Automatic",
     "e_car": true
@@ -9388,7 +9388,7 @@
     "model": "XT",
     "km": 55886,
     "year": 1989,
-    "fuel": "Agender",
+    "fuel": "CNG",
     "color": "Puce",
     "car_type": "Manual",
     "e_car": true
@@ -9674,7 +9674,7 @@
     "model": "SL-Class",
     "km": 62116,
     "year": 1998,
-    "fuel": "Genderfluid",
+    "fuel": "Benzin",
     "color": "Red",
     "car_type": "Manual",
     "e_car": false
@@ -10312,7 +10312,7 @@
     "model": "EV1",
     "km": 7688,
     "year": 1999,
-    "fuel": "Genderqueer",
+    "fuel": "Diesel",
     "color": "Puce",
     "car_type": "Manual",
     "e_car": true
@@ -10774,7 +10774,7 @@
     "model": "Corsica",
     "km": 63271,
     "year": 1996,
-    "fuel": "Non-binary",
+    "fuel": "Petrol",
     "color": "Violet",
     "car_type": "Automatic",
     "e_car": true
@@ -10785,7 +10785,7 @@
     "model": "Tribute",
     "km": 4067,
     "year": 2008,
-    "fuel": "Polygender",
+    "fuel": "Propane",
     "color": "Purple",
     "car_type": "Manual",
     "e_car": false
@@ -10983,7 +10983,7 @@
     "model": "Focus",
     "km": 11095,
     "year": 2006,
-    "fuel": "Genderqueer",
+    "fuel": "Diesel",
     "color": "Puce",
     "car_type": "Manual",
     "e_car": false
