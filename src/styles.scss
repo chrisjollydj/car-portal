@@ -7,6 +7,10 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
 .container {
     width: 100%;
     max-width: 1230px;
@@ -14,5 +18,3 @@
     margin: 0 auto;
     position: relative;
 }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

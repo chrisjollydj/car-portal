@@ -11,8 +11,8 @@ export class DashboardComponent implements OnInit {
   fullCarsList!: Car[];
   carsToShow: Car[] = [];
   infiniteScrollDisabled: boolean = true;
-  itemsToAdd: number = 10;
-
+  itemsToAdd: number = 12;
+  
   constructor(private _carService: CarService) { }
 
   ngOnInit(): void {
@@ -33,7 +33,7 @@ export class DashboardComponent implements OnInit {
 
   onScroll() {
     let prevItemsToAdd = this.itemsToAdd;
-    this.itemsToAdd += 10;
+    this.itemsToAdd += 12;
     this.appendCarsToShow(prevItemsToAdd, this.itemsToAdd);
   }
 }

@@ -1,11 +1,39 @@
-<div class="card">
-    <p>Id: {{car.id}}</p>
-    <p>Brand: {{car.brand}}</p>
-    <p>Model: {{car.model}}</p>
-    <p>KM: {{car.km}}</p>
-    <p>Year: {{car.year}}</p>
-    <p>Fuel: {{car.fuel}}</p>
-    <p>Color: {{car.color}}</p>
-    <p>Type: {{car.car_type}}</p>
-    <p>Electric: {{car.e_car? 'Yes': 'No'}}</p>
+<div class="card" fxLayout="column">
+    <span class="id">{{car.id}}</span>
+    <p class="title" fxLayout="row" fxLayoutAlign="end center">{{car.year}} {{car.brand}} {{car.model}}</p>
+    <div class="details" fxLayout="row wrap" fxLayoutAlign="space-between center">
+        <div class="spec" fxLayout="column" fxLayoutAlign="center center">
+            <p class="heading">KM</p>
+            <p class="value">{{car.km}}</p>
+        </div>
+        <div class="spec" fxLayout="column" fxLayoutAlign="center center">
+            <p class="heading">Fuel</p>
+            <p class="value">{{car.fuel}}</p>
+        </div>
+        <div class="spec" fxLayout="column" fxLayoutAlign="center center">
+            <p class="heading">Type</p>
+            <p class="value">{{car.car_type}}</p>
+        </div>
+    <!-- </div>
+    <div class="details" fxLayout="row" fxLayoutAlign="space-between center"> -->
+        <div class="spec" fxLayout="column" fxLayoutAlign="center center">
+            <p class="heading">Electric</p>
+            <p class="value">{{car.e_car? 'Yes': 'No'}}</p>
+        </div>
+        <div class="spec" fxLayout="column" fxLayoutAlign="center center">
+            <p class="heading">Color</p>
+            <p class="value">{{car.color}}</p>
+        </div>
+
+        <div class="spec color" [ngStyle]="{'background': car.color}"></div>
+    </div>
 </div>
+
+<!-- <p>Id: {{car.id}}</p> -->
+<!-- <p>Brand: {{car.brand}}</p> -->
+<!-- <p>Model: {{car.model}}</p> -->
+<!-- <p>Year: {{car.year}}</p> -->
+<!-- <p>Fuel: {{car.fuel}}</p> -->
+<!-- <p>Color: {{car.color}}</p> -->
+<!-- <p>Type: {{car.car_type}}</p -->
+<!-- <p>Electric: {{car.e_car? 'Yes': 'No'}}</p> -->
