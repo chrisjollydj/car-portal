@@ -8,14 +8,32 @@ import { CarService } from 'src/app/services/car.service';
   styleUrls: ['./dashboard.component.scss']
 })
 export class DashboardComponent implements OnInit {
-  cars!: Car[];
+  fullCarsList!: Car[];
+  carsToShow: Car[] = [];
+  infiniteScrollDisabled: boolean = true;
+  itemsToAdd: number = 10;
 
   constructor(private _carService: CarService) { }
 
   ngOnInit(): void {
-    this._carService.getCars().subscribe((cars: Car[])=> {
-      this.cars = cars;      
+    this._carService.getCars().subscribe((cars: Car[]) => {
+      this.fullCarsList = cars;
+      this.appendCarsToShow(0, this.itemsToAdd);
+      this.infiniteScrollDisabled = false;
     })
   }
 
+  trackByFn(i: number, item: Car) {
+    return item.id;
+  }
+
+  appendCarsToShow(start: number, end: number) {
+    this.carsToShow = [...this.carsToShow, ...this.fullCarsList.slice(start, end)];
+  }
+
+  onScroll() {
+    let prevItemsToAdd = this.itemsToAdd;
+    this.itemsToAdd += 10;
+    this.appendCarsToShow(prevItemsToAdd, this.itemsToAdd);
+  }
 }

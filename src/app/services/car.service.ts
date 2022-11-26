@@ -6,10 +6,10 @@ import { Car } from '../models/car';
   providedIn: 'root'
 })
 export class CarService {
-
+  jsonPath = '../../assets/json/cars.json';
   constructor(private http: HttpClient) { }
 
   getCars() {
-    return this.http.get<Car[]>('../../assets/json/cars.json');
+    return this.http.get<Car[]>(this.jsonPath);
   }
 }

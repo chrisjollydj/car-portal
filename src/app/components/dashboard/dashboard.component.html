@@ -1,4 +1,8 @@
-<div *ngFor="let car of cars" fxLayout="column">
-    <app-card [car]="car"></app-card>
-    <hr>
+<div class="container dashboard-outer" fxLayout="row wrap" fxLayoutAlign="space-between center" infiniteScroll
+    [infiniteScrollDisabled]="infiniteScrollDisabled" [infiniteScrollDistance]="0" [scrollWindow]="true"
+    [infiniteScrollThrottle]="100" (scrolled)="onScroll()">
+
+    <div class="card-outer" *ngFor="let car of carsToShow; trackBy:trackByFn">
+        <app-card [car]="car"></app-card>
+    </div>
 </div>
