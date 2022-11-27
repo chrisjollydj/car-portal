@@ -19,7 +19,6 @@ export class AppComponent {
       this.user = user;
       
       this.loggedIn = (user != null);
-      console.log(user, this.loggedIn);
 
       if(this.loggedIn) {
         this.router.navigateByUrl('dashboard');

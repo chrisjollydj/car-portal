@@ -1,6 +1,6 @@
 <h2 mat-dialog-title>Enter Car Details</h2>
 <mat-dialog-content class="mat-typography">
-
+  
   <form [formGroup]="carDetailsForm" (ngSubmit)="saveDetails()" novalidate>
     <mat-tab-group mat-stretch-tabs>
       <mat-tab label="Basic Details">
@@ -29,7 +29,6 @@
             <mat-form-field appearance="outline">
               <mat-label>Kilometers</mat-label>
               <input matInput formControlName="km">
-              <!-- <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error> -->
             </mat-form-field>
           </div>
           <div class="field">
@@ -118,6 +117,7 @@
 
 </mat-dialog-content>
 <mat-dialog-actions align="end">
+  <span class="info">*All fields are required</span>
   <button mat-button mat-dialog-close>Cancel</button>
-  <button mat-button (click)="saveDetails()">Save</button>
+  <button mat-button (click)="saveDetails()" [disabled]="!carDetailsForm.valid">Save</button>
 </mat-dialog-actions>
