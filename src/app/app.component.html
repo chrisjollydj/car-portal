@@ -1,1 +1,19 @@
+<mat-toolbar color="primary" fxLayout="row" fxLayoutAlign="space-between center">
+    <span>Car Registration Portal</span>
+    <div *ngIf="!user; else loggedIn" class="card text-center">
+        <asl-google-signin-button type="standard" size="large"> </asl-google-signin-button>
+    </div>
+
+    <ng-template #loggedIn>
+        <div class="user-details" fxLayout="row" fxLayoutAlign="space-between center">
+            <img src="{{ user.photoUrl }}" referrerpolicy="no-referrer">
+            <div class="id" fxLayout="column" fxLayoutAlign="space-between end">
+                <h4>{{ user.name }}</h4>
+                <p>{{ user.email }}</p>
+            </div>
+            <button mat-flat-button color="warn" (click)="signOut()">Sign out</button>
+        </div>
+    </ng-template>
+</mat-toolbar>
+
 <router-outlet></router-outlet>

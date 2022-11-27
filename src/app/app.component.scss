@@ -1,0 +1,23 @@
+mat-toolbar {
+    margin-bottom: 20px;
+
+    .user-details {
+        gap: 15px;
+
+        img {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+        }
+
+        .id {
+            h4 {
+                font: 500 14px Roboto, "Helvetica Neue", sans-serif;
+            }
+
+            p {
+                font: normal 13px Roboto, "Helvetica Neue", sans-serif;
+            }
+        }
+    }
+}
