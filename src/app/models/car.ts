@@ -7,8 +7,9 @@ export interface Car {
     shift: string,
     fuel: string,
     color: string,
-    car_type: string
-    e_car: boolean
+    car_type: string,
+    e_car: boolean,
+    damages?:[]
 }
 
 export const Brands: Array<string> = [

@@ -2,60 +2,60 @@
 <mat-dialog-content class="mat-typography">
 
   <form [formGroup]="carDetailsForm" (ngSubmit)="saveDetails()" novalidate>
-    <mat-tab-group>
+    <mat-tab-group mat-stretch-tabs>
       <mat-tab label="Basic Details">
-        <div>
-          <div class="example-container">
+        <div class="form-container" fxLayout="row wrap" fxLayoutAlign="start center">
+          <div class="field">
             <mat-form-field appearance="outline">
               <mat-label>Brand</mat-label>
-              <mat-select formControlName="brand" name="food">
+              <mat-select formControlName="brand">
                 <mat-option *ngFor="let b of brands" [value]="b">
                   {{b}}
                 </mat-option>
               </mat-select>
             </mat-form-field>
           </div>
-          <div class="example-container">
+          <div class="field">
             <mat-form-field appearance="outline">
               <mat-label>Model</mat-label>
-              <mat-select formControlName="model" name="food">
+              <mat-select formControlName="model">
                 <mat-option *ngFor="let b of models" [value]="b">
                   {{b}}
                 </mat-option>
               </mat-select>
             </mat-form-field>
           </div>
-          <div class="example-container">
+          <div class="field">
             <mat-form-field appearance="outline">
               <mat-label>Kilometers</mat-label>
               <input matInput formControlName="km">
               <!-- <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error> -->
             </mat-form-field>
           </div>
-          <div class="example-container">
+          <div class="field">
             <mat-form-field appearance="outline">
               <mat-label>Year</mat-label>
-              <mat-select formControlName="year" name="food">
+              <mat-select formControlName="year">
                 <mat-option *ngFor="let b of years" [value]="b">
                   {{b}}
                 </mat-option>
               </mat-select>
             </mat-form-field>
           </div>
-          <div class="example-container">
+          <div class="field">
             <mat-form-field appearance="outline">
               <mat-label>Fuel</mat-label>
-              <mat-select formControlName="fuel" name="food">
+              <mat-select formControlName="fuel">
                 <mat-option *ngFor="let b of fuels" [value]="b">
                   {{b}}
                 </mat-option>
               </mat-select>
             </mat-form-field>
           </div>
-          <div class="example-container">
+          <div class="field">
             <mat-form-field appearance="outline">
               <mat-label>Color</mat-label>
-              <mat-select formControlName="color" name="food">
+              <mat-select formControlName="color">
                 <mat-option *ngFor="let b of colors" [value]="b">
                   <div fxLayout="row" fxLayoutAlign="space-between center"><span>{{b}}</span>
                     <p class="color" [ngStyle]="{'background': b}"></p>
@@ -64,42 +64,54 @@
               </mat-select>
             </mat-form-field>
           </div>
-          <div class="example-container">
+          <div class="field">
             <mat-form-field appearance="outline">
               <mat-label>Car Type</mat-label>
-              <mat-select formControlName="car_type" name="food">
+              <mat-select formControlName="car_type">
                 <mat-option *ngFor="let b of carTypes" [value]="b">
                   {{b}}
                 </mat-option>
               </mat-select>
             </mat-form-field>
           </div>
-          <div class="example-container">
+          <div class="field" fxLayout="row">
             <mat-form-field appearance="outline">
               <mat-label>Is E-Car?</mat-label>
-              <input matInput formControlName="e_car">
-              <!-- <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error> -->
+              <mat-select formControlName="e_car">
+                <mat-option [value]="true">
+                  Yes
+                </mat-option>
+                <mat-option [value]="false">
+                  No
+                </mat-option>
+              </mat-select>
             </mat-form-field>
           </div>
         </div>
       </mat-tab>
       <mat-tab label="Damage Records">
-        <mat-icon class="delete-btn" (click)="addDamages()">
-          add</mat-icon>
-        <ng-container formArrayName="damages">
-          <div *ngFor="let d of damagesControl?.controls; let i = index">
+        <div class="damage-container" formArrayName="damages">
+          <div class="form-array-container" fxLayout="row" fxLayoutAlign="start center"
+            *ngFor="let d of damagesControl?.controls; let i = index">
             <ng-container [formGroupName]="i">
               <mat-form-field appearance="outline">
+                <mat-label>Piece</mat-label>
                 <input matInput formControlName="piece" placeholder="Piece">
               </mat-form-field>
               <mat-form-field appearance="outline">
+                <mat-label>Problem</mat-label>
                 <input matInput formControlName="problem" placeholder="Problem">
               </mat-form-field>
-              <mat-icon class="delete-btn" (click)="deleteDamages(i)">
-                delete_forever</mat-icon>
+              <button mat-icon-button color="warn" (click)="deleteDamages(i)">
+                <mat-icon>delete_forever</mat-icon>
+              </button>
             </ng-container>
           </div>
-        </ng-container>
+          <div class="button" fxLayout="row" fxLayoutAlign="center center">
+            <button mat-raised-button color="primary" (click)="addDamages()">Add a record</button>
+          </div>
+
+        </div>
       </mat-tab>
     </mat-tab-group>
   </form>

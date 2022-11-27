@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormArray, FormBuilder, FormGroup } from '@angular/forms';
 import { Validators } from '@angular/forms';
-import { Brands, CarType, Color, Fuels, Models } from 'src/app/models/car';
+import { MatDialogRef } from '@angular/material/dialog';
+import { Brands, Car, CarType, Color, Fuels, Models } from 'src/app/models/car';
 
 @Component({
   selector: 'app-car-form',
@@ -17,7 +18,7 @@ export class CarFormComponent implements OnInit {
   colors: string[] = Color;
   years = [...Array(new Date().getFullYear() - 1950 + 1).keys()].map(x => x + 1950).sort((a, b) => b - a);
 
-  constructor(private fb: FormBuilder) {
+  constructor(private fb: FormBuilder, public dialogRef: MatDialogRef<CarFormComponent>) {
     this.carDetailsForm = this.fb.group({
       "brand": ['', Validators.required],
       "model": ['', Validators.required],
@@ -32,12 +33,12 @@ export class CarFormComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    console.log(this.carDetailsForm.value);
   }
 
   saveDetails() {
-    console.log(this.carDetailsForm.value);
-
+    if(this.carDetailsForm.valid) {
+      this.dialogRef.close(this.carDetailsForm.value);
+    }
   }
 
   get damagesControl() {

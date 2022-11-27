@@ -4,3 +4,25 @@
     border: 1px solid #000;
     border-radius: 6px;
 }
+mat-tab-group {
+    width: 70vw;
+    min-height: 300px;
+}
+.form-container {
+    gap: 20px;
+    margin-top: 20px;
+}
+.damage-container {
+    margin-top: 20px;
+
+    .button {
+        margin-top: 15px;
+    }
+}
+.form-array-container {
+    gap: 20px;
+}
+:host ::ng-deep .mat-form-field-wrapper {
+    margin: 0;
+    padding: 0;
+}
