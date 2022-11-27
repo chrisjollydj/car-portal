@@ -48,7 +48,7 @@ export class CarFormComponent implements OnInit {
   addDamages() {
     const damage = this.fb.group({
       "piece": ['', Validators.required],
-      "problem": ['', Validators.required]
+      "amount": ['', Validators.required]
     });
     this.damagesControl.push(damage);
   }

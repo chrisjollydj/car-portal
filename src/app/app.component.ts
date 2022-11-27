@@ -32,6 +32,7 @@ export class AppComponent {
     this.authService.signOut();
     localStorage.removeItem('loggedIn');
     this.router.navigateByUrl('login');
+    localStorage.clear();
   }
 
   openSnackBar(message: string, action?: string) {
