@@ -5,4 +5,7 @@
     overflow: hidden;
     background-position: center;
     background-repeat: no-repeat;
+    z-index: -1;
+    top: 0;
+    position: fixed;
 }
